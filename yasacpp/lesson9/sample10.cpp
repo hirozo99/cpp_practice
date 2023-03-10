@@ -7,8 +7,8 @@ int main()
 
     cout << "Hello\n";
 
-    for(int i=0; str[i]!='¥0'; i++){
-        cout << str[i] << "\n";
+    for(int i=0; str[i]!='\0'; i++){
+        cout << str[i] << "*";
     }
     cout << '\n';
 
